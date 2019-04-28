@@ -1,0 +1,76 @@
+Drupal Dev
+
+	Environnement de developpements
+		Linux command line
+
+	Devpos environnement
+		jenkis
+		Docker
+
+	Operationnel tool
+		Drupal with composer
+		Drupal with drush
+			Drush is CLI for drupal,it help to use command line for manage a website
+			for defaut,drush is not install.for install drush we need  use composer
+			on se positionne dans le reposertoire master du project par la ligne de commande et on tape la commande :
+
+				composer require drush/drush
+
+			---installation ok
+
+			Installez un site Drush et Drush Launcher locaux.
+			Il est recommandé de créer des sites Drupal 8 à l' aide de Composer, Drush étant répertorié comme dépendance . 
+
+			Ce projet inclut déjà Drush dans son composer.json. Si votre projet Composer ne dépend pas encore de Drush, exécutez-le composer require drush/drushpour l'ajouter. Après cette étape, vous pouvez appeler Drush via vendor/bin/drush.
+			Optionnel. Pour pouvoir appeler drushde n'importe où, installez Drush Launcher . Il s’agit d’un petit programme qui écoute sur votre $ PATH et donne le contrôle à un Drush local situé dans le répertoire / vendor de votre projet Composer.
+			Optionnel. Courez drush init. Ceci édite ~ / .bashrc pour que l’invite personnalisée de Drush et son intégration bash soient actives.
+
+			Reference command
+				drush status
+				Cache
+					drush cc
+					drush all cc
+
+				Users
+					drush user-create username --mail="email@example.com" --password="password"
+					drush user-cancel username
+					drush user-password admin --password="new_pass"
+
+				Updating
+					drush up -n | grep available
+
+
+
+
+		Drupal with Git
+		
+	Drupal scrum developper
+		Modules Developpement
+		Theming Developpement
+		Rest & webservices developpement
+		Drupal signetion developpement
+		TDD
+		Code documentation
+
+	Drupal commerce
+		Analytics & Reporting
+		Cart
+		Checkout
+		Customer Service
+		Integration (CRM / ERP)
+		Internationalization & Localization
+		Live Chat
+		Marketing
+		Migration Tools
+		Multichannel
+		Order Management
+		Payment
+		Performance
+		Price & Discount
+		Product Customization
+		Recommendations
+		Search & Filter
+		Shipping & Fulfillment
+		Translation
+		Utility & Tools
+		
